@@ -1,5 +1,22 @@
+<div class="container-fluid">
 <h1>{{ name}}</h1>
 <p>
   Have fun modifying this project!
 </p>
+<select>
+  <option>All </option>
+  <option>Visited </option>
+  <option> Not Visited</option>
+</select>
+<br>
+<br>
+<div>
+  <label>Name:</label>
+<input type="text">
+</div>
+
+<br>
+<br>
+<button class="btn btn-success">Submit </button>
 <div *ngFor="let title of titles">{{title.name}}</div>
+<div>
